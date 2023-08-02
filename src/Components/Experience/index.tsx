@@ -16,7 +16,6 @@ export function Experience() {
           }}
         >
           <ToolCardContainer />
-          {/* <Card devArea="Front-end"/> */}
         </Box>
 
         <Box
@@ -25,7 +24,6 @@ export function Experience() {
             display: "flex",
           }}
         >
-          {/* <Card devArea="Back-end"/> */}
         </Box>
       </Grid>
     </ExperienceContainer>

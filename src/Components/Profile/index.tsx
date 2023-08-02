@@ -1,13 +1,13 @@
 import { Grid } from "@mui/material";
-import GitHubGIF from "../../assets/gif/git_gif.gif";
-import InstaGif from "../../assets/gif/insta_gif.gif";
-import LinkedInGIF from "../../assets/gif/linkedin_gif.gif";
-import ProfileImage from "../../assets/png/Roshan.png";
 import StyledButton from "../../common/components/StyledButton";
 import Name from "./name";
 import { HeaderComponent, headerComponentClasses } from "./styles";
 
 export default function Profile() {
+  const GitHubGIF = require("../../assets/gif/git_gif.gif");
+  const InstaGif = require("../../assets/gif/insta_gif.gif");
+  const LinkedInGIF = require("../../assets/gif/linkedin_gif.gif");
+  const ProfileImage = require("../../assets/png/Roshan.png");
   return (
     <HeaderComponent>
       <Grid className={headerComponentClasses.nameStyles} container>

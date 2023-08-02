@@ -2,10 +2,6 @@ import Grid from "@mui/material/Grid";
 import { CardContainer, cardContainerClasses } from "../About/styles";
 import { ContactComponent, contactComponentClasses } from "./styles";
 
-import MailIcon from "../../assets/png/mail.png";
-import MessengerIcon from "../../assets/png/messenger.png";
-import WhatsAppIcon from "../../assets/png/whatsapp.png";
-
 export function Contact() {
   return (
     <ContactComponent>
@@ -28,6 +24,9 @@ type ContactCardProps = {
 };
 
 function ContactCard({ src, name, value }: ContactCardProps) {
+  const MailIcon = require("../../assets/png/mail.png");
+  const MessengerIcon = require("../../assets/png/messenger.png");
+  const WhatsAppIcon = require("../../assets/png/whatsapp.png");
   let IconComponent;
   if (src === "mail") {
     IconComponent = MailIcon;

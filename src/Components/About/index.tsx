@@ -1,13 +1,11 @@
 import PeopleIcon from "@mui/icons-material/People";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-import Roshan from "../../assets/png/Roshan.png";
-import ExperienceIcon from "../../assets/png/award.png";
-import ProjectIcon from "../../assets/png/project.png";
 import StyledButton from "../../common/components/StyledButton";
 import { AboutComponent, CardContainer, aboutComponentClasses } from "./styles";
 
 export function About() {
+  const RoshanImage = require("../../assets/png/Roshan.png");
   return (
     <AboutComponent>
       <Grid container className={aboutComponentClasses.title}>
@@ -16,7 +14,7 @@ export function About() {
       <Grid container className={aboutComponentClasses.aboutComponents}>
         <Grid container className={aboutComponentClasses.imageContainer}>
           <Paper className={aboutComponentClasses.imageStyles}>
-            <img src={Roshan} height={"250px"} width={"250px"} alt="Roshan" />
+            <img src={RoshanImage} height={"250px"} width={"250px"} alt="Roshan" />
           </Paper>
         </Grid>
         <Grid container className={aboutComponentClasses.cardsContainer}>
@@ -42,6 +40,9 @@ export function About() {
 }
 
 function AboutCards() {
+  const ExperienceIcon = require("../../assets/png/award.png");
+  const ProjectIcon = require("../../assets/png/project.png");
+
   return (
     <>
       <CardContainer height={150} width={150}>

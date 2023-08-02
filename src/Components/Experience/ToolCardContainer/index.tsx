@@ -1,27 +1,27 @@
 import Grid from "@mui/material/Grid";
-import AndroidStudioIcon from "../../../assets/png/android_studio.png";
-import BitBucketIcon from "../../../assets/png/bitbucket.png";
-import BootStrap from "../../../assets/png/bootstrap.png";
-import CSSIcon from "../../../assets/png/css-3.png";
-import FireBaseIcon from "../../../assets/png/firebase.png";
-import FlutterIcon from "../../../assets/png/flutter.png";
-import GitIcon from "../../../assets/png/git.png";
-import HTMLIcon from "../../../assets/png/html-5.png";
-import JavaScriptIcon from "../../../assets/png/java-script.png";
-import JavaIcon from "../../../assets/png/java.png";
-import JestIcon from "../../../assets/png/jest.png";
-import JiraIcon from "../../../assets/png/jira.png";
-import SqlIcon from "../../../assets/png/my-sql.png";
-import PostgreSQL from "../../../assets/png/postgresql.png";
-import ReactIcon from "../../../assets/png/react.png";
-import SpringBootIcon from "../../../assets/png/SpringBootIcon.png";
-import ThunderClientIcon from "../../../assets/png/thunder-client.png";
-import TypeScriptIcon from "../../../assets/png/TypeScriptIcon.png";
-import VisualStudioIcon from "../../../assets/png/visual-studio-code.png";
 
 import { CardContainer } from "../../About/styles";
 
 export default function ToolCardContainer() {
+  const AndroidStudioIcon = require("../../../assets/png/android_studio.png");
+  const BitBucketIcon = require("../../../assets/png/bitbucket.png");
+  const BootStrap = require("../../../assets/png/bootstrap.png");
+  const CSSIcon = require("../../../assets/png/css-3.png");
+  const FireBaseIcon = require("../../../assets/png/firebase.png");
+  const FlutterIcon = require("../../../assets/png/flutter.png");
+  const GitIcon = require("../../../assets/png/git.png");
+  const HTMLIcon = require("../../../assets/png/html-5.png");
+  const JavaScriptIcon = require("../../../assets/png/java-script.png");
+  const JavaIcon = require("../../../assets/png/java.png");
+  const JestIcon = require("../../../assets/png/jest.png");
+  const JiraIcon = require("../../../assets/png/jira.png");
+  const SqlIcon = require("../../../assets/png/my-sql.png");
+  const PostgreSQL = require("../../../assets/png/postgresql.png");
+  const ReactIcon = require("../../../assets/png/react.png");
+  const SpringBootIcon = require("../../../assets/png/SpringBootIcon.png");
+  const ThunderClientIcon = require("../../../assets/png/thunder-client.png");
+  const TypeScriptIcon = require("../../../assets/png/TypeScriptIcon.png");
+  const VisualStudioIcon = require("../../../assets/png/visual-studio-code.png");
   const IconList = [
     HTMLIcon,
     CSSIcon,
@@ -55,12 +55,7 @@ export default function ToolCardContainer() {
               height: "inherit",
             }}
           >
-            <img
-              src={IconList[index]}
-              alt="html-icon"
-              width={95}
-              
-            />
+            <img src={IconList[index]} alt="html-icon" width={95} />
           </Grid>
         </CardContainer>
       ))}
