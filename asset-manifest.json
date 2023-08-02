@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/My-Portfolio/static/js/main.3de6373e.js",
+    "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Roshan.png": "/My-Portfolio/static/media/Roshan.a275ad7958dfe6d2aa6f.png",
+    "static/media/android_studio.png": "/My-Portfolio/static/media/android_studio.b433384481c70b3f4c61.png",
+    "static/media/react.png": "/My-Portfolio/static/media/react.9575cfe49da1f4fd1211.png",
+    "static/media/git_gif.gif": "/My-Portfolio/static/media/git_gif.7a779fd797adf57e5a40.gif",
+    "static/media/bootstrap.png": "/My-Portfolio/static/media/bootstrap.e1e6d16977e61172f30b.png",
+    "static/media/insta_gif.gif": "/My-Portfolio/static/media/insta_gif.ebdfe4dd89d21aa9437e.gif",
+    "static/media/thunder-client.png": "/My-Portfolio/static/media/thunder-client.b5c93413220a95f9a341.png",
+    "static/media/html-5.png": "/My-Portfolio/static/media/html-5.0eb22273a62b229e5567.png",
+    "static/media/java-script.png": "/My-Portfolio/static/media/java-script.a6b2ab359022ec65a08b.png",
+    "static/media/bitbucket.png": "/My-Portfolio/static/media/bitbucket.efbfc8a1d185088ec355.png",
+    "static/media/whatsapp.png": "/My-Portfolio/static/media/whatsapp.92449d3da0a3eb71da68.png",
+    "static/media/postgresql.png": "/My-Portfolio/static/media/postgresql.6785a7ba674daa7ca948.png",
+    "static/media/linkedin_gif.gif": "/My-Portfolio/static/media/linkedin_gif.b93499ddc1805d9b5a8b.gif",
+    "static/media/css-3.png": "/My-Portfolio/static/media/css-3.8f12713ce0f020275c6f.png",
+    "static/media/messenger.png": "/My-Portfolio/static/media/messenger.4f5b968dd5c9be9e73c9.png",
+    "static/media/mail.png": "/My-Portfolio/static/media/mail.6dc93d8e1a6316185928.png",
+    "static/media/SpringBootIcon.png": "/My-Portfolio/static/media/SpringBootIcon.76f23b013f5f70e81501.png",
+    "static/media/java.png": "/My-Portfolio/static/media/java.2381078059b2c1222c20.png",
+    "static/media/flutter.png": "/My-Portfolio/static/media/flutter.519f480d89ca1ab30084.png",
+    "static/media/jest.png": "/My-Portfolio/static/media/jest.495c0b4cac86f6d10d22.png",
+    "static/media/my-sql.png": "/My-Portfolio/static/media/my-sql.cf92ac5dd63441fc7610.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.3de6373e.js.map": "/My-Portfolio/static/js/main.3de6373e.js.map",
+    "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3de6373e.js"
+  ]
+}
